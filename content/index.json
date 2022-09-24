@@ -1,0 +1,591 @@
+{
+	"meta": {
+	  "desc": "Foodie is a theme for the Plentico static site generator",
+	  "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	},
+	  "components": [
+		  {
+			"name": "hero",
+			"fields": {
+				"subtitle": "Come & Enjoy",
+				"title": "Most delicious Burgers in town!",
+				"body": "Food is any substance consumed to provide nutritional support for an organism.",
+				"link": {
+					"title": "Book A Table",
+					"url": "."
+				},
+				"image": 
+					{
+						"hero": {
+							"url": "/hero-bg.jpg",
+							"alt": "Hero background"
+						},
+						"background": {
+							"url": "/hero-banner-bg.png",
+							"alt": "Hero banner background"
+						},
+						"banner": {
+							"url": "/hero-banner.png",
+							"alt": "Hero banner"
+						}
+					} 
+				}
+			},
+		  	{
+			  "name": "promo",
+			  "fields": {
+				  "title1": "Our",
+				  "title2": "Specials",
+				  "items": [
+						{
+						"title": "Maxican Pizza",
+						"body": "Food is any substance consumed to provide nutritional support for an organism.",
+						"icon": {
+							"url": "/promo-icon-1.svg",
+							"alt": "Pizza"
+							},
+						"image": {
+							"url": "/promo-1.png",
+							"alt": "Maxican Pizza"
+							}
+						},
+						{
+						"title": "Soft Drinks",
+						"body": "Food is any substance consumed to provide nutritional support for an organism.",
+						"icon": {
+							"url": "/promo-icon-2.svg",
+							"alt": "Drinks"
+							},
+						"image": {
+							"url": "/promo-2.png",
+							"alt": "Soft Drinks"
+						  	}
+						},
+						{
+						"title": "French Fries",
+						"body": "Food is any substance consumed to provide nutritional support for an organism.",
+						"icon": {
+							"url": "/promo-icon-3.svg",
+							"alt": "Fries"
+							},
+						"image": {
+							"url": "/promo-3.png",
+							"alt": "French Fries"
+						  }
+						},
+						{
+						"title": "Burger Kingo",
+						"body": "Food is any substance consumed to provide nutritional support for an organism.",
+						"icon": {
+							"url": "/promo-icon-4.svg",
+							"alt": "Burger"
+							},
+						"image": {
+							"url": "/promo-4.png",
+							"alt": "French Fries"
+						  }
+						},
+						{
+						"title": "Chicken Masala",
+						"body": "Food is any substance consumed to provide nutritional support for an organism.",
+						"icon": {
+							"url": "/promo-icon-5.svg",
+							"alt": "Chicken"
+							},
+						"image": {
+							"url": "/promo-5.png",
+							"alt": "Chicken Masala"
+						  	}
+						}
+				  	]
+			  	} 
+		  	},
+			{
+				"name": "about",
+				"fields": {
+					"title1": "Caferio, Burgers, and the Best Pizzas",
+					"title2": "in Town!",
+                    "body": "The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.",
+					"image1": {
+						"url": "/about-banner.png",
+						"alt": "Burger with Drinks"
+					},
+					"image2": {
+						"url": "/sale-shape-red.png",
+						"alt": "get up to 50% off now"
+					},
+					"link": {
+						"title": "Order Now",
+						"url": "."
+					 },
+					"items": [
+						{ 
+						"list": {
+							"title": "Delicious & Healthy Foods",
+							"icon": "checkmark-outline"
+							}
+						},
+						{
+						"list": {
+							"title": "Spacific Family And Kids Zone",
+							"icon": "checkmark-outline"
+							}
+						},
+						{
+						"list": {
+							"title": "Music & Other Facilities",
+							"icon": "checkmark-outline"
+							}
+						},
+						{
+						"list": {
+							"title": "Fastest Food Home Delivery",
+							"icon": "checkmark-outline"
+							}
+						}
+				 	]  
+                }
+			},
+			{
+				"name": "menu",
+				"fields": {
+					"title1": "Our Delicious",
+					"title2": "Food",
+					"subtitle": "Popular Dishes",
+                    "body": "Food is any substance consumed to provide nutritional support for an organism.",
+					"tabs": {
+						"all": "All",
+						"pizza": "Pizzas",
+						"burger": "Burgers",
+						"drinks": "Drinks",
+						"sandwich": "Sandwiches"
+					},
+					"items": [
+						{   
+							"title": "Fried Chicken Unlimited",
+							"category": "Chicken",
+							"badge": "-15%",
+							"image": {
+								"url": "/food-menu-1.png",
+								"alt": "Fried Chicken Unlimited"
+							},	
+							"rating": {
+								"star1": ".",
+								"star2": ".",
+								"star3": ".",
+								"star4": ".",
+								"star5": "."
+							},
+							"price": {
+								"text": "Price:",
+								"amount": "$49.00",
+								"value": "49.00",
+								"deleted": "$69.00"
+							},
+							"button": {
+								"title": "Order Now",
+								"url": "."
+							}
+						},
+						{   
+							"title": "Burger King Whopper",
+							"category": "Noodles",
+							"badge": "-10%",
+							"image": {
+								"url": "/food-menu-2.png",
+								"alt": "Burger King Whopper"
+							},	
+							"rating": {
+								"star1": ".",
+								"star2": ".",
+								"star3": ".",
+								"star4": ".",
+								"star5": "."
+							},
+							"price": {
+								"text": "Price:",
+								"amount": "$29.00",
+								"value": "29.00",
+								"deleted": "$39.00"
+							},
+							"button": {
+								"title": "Order Now",
+								"url": "."
+							}
+						},
+						{   
+							"title": "White Castle Pizza",
+							"category": "Pizza",
+							"badge": "-25%",
+							"image": {
+								"url": "/food-menu-3.png",
+								"alt": "White Castle Pizza"
+							},	
+							"rating": {
+								"star1": ".",
+								"star2": ".",
+								"star3": ".",
+								"star4": ".",
+								"star5": "."
+							},
+							"price": {
+								"text": "Price:",
+								"amount": "$49.00",
+								"value": "49.00",
+								"deleted": "$69.00"
+							},
+							"button": {
+								"title": "Order Now",
+								"url": "."
+							}
+						},
+						{   
+							"title": "Bell Burrito Supreme",
+							"category": "Burrito",
+							"badge": "-20%",
+							"image": {
+								"url": "/food-menu-4.png",
+								"alt": "Bell Burrito Supreme"
+							},	
+							"rating": {
+								"star1": ".",
+								"star2": ".",
+								"star3": ".",
+								"star4": ".",
+								"star5": "."
+							},
+							"price": {
+								"text": "Price:",
+								"amount": "$59.00",
+								"value": "59.00",
+								"deleted": "$69.00"
+							},
+							"button": {
+								"title": "Order Now",
+								"url": "."
+							}
+						},
+						{   
+							"title": "Kung Pao Chicken BBQ",
+							"category": "Nuggets",
+							"badge": "-5%",
+							"image": {
+								"url": "/food-menu-5.png",
+								"alt": "Kung Pao Chicken BBQ"
+							},	
+							"rating": {
+								"star1": ".",
+								"star2": ".",
+								"star3": ".",
+								"star4": ".",
+								"star5": "."
+								},
+							"price": {
+								"text": "Price:",
+								"amount": "$49.00",
+								"value": "49.00",
+								"deleted": "$69.00"
+							},
+							"button": {
+								"title": "Order Now",
+								"url": "."
+							}
+						},
+						{   
+							"title": "Wendy's Chicken",
+							"category": "Chicken",
+							"badge": "-15%",
+							"image": {
+								"url": "/food-menu-6.png",
+								"alt": "Wendy's Chicken"
+							},	
+							"rating": {
+								"star1": ".",
+								"star2": ".",
+								"star3": ".",
+								"star4": ".",
+								"star5": "."
+							},
+							"price": {
+								"text": "Price:",
+								"amount": "$49.00",
+								"value": "49.00",
+								"deleted": "$69.00"
+							},
+							"button": {
+								"title": "Order Now",
+								"url": "."
+							}
+						}
+					]
+				}
+			},
+		{
+			"name": "cta",
+			"fields": {
+				"title1": "The Foodie Makes Excellent",
+				"title2": "Quality Burgers!",
+				"body": "The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.",
+				"link": {
+					"title": "Order Now",
+					"url": "."
+				},
+				"images": {
+					"sale": {
+						"url": "/sale-shape.png",
+						"alt": "Get up to 50% off now"
+					},
+					"background": {
+						"url": "/hero-bg.jpg",
+						"alt": "Banner background"
+					},
+					"banner": {
+						"url": "/cta-banner.png",
+						"alt": "Burger"
+					}
+				}
+			}
+		},
+		{
+			"name": "delivery",
+			"fields": {
+				"title1": "We Deliver in Moments at the",
+				"title2": "Right Time",
+				"title3": "& Place",
+				"body": "The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.",
+				"link": {
+					"title": "Order Now",
+					"url": "."
+				},
+				"images": {
+					"background": {
+						"url": "/delivery-banner-bg.png",
+						"alt": "Image of clouds"
+					},
+					"banner": {
+						"url": "/delivery-boy.svg",
+						"alt": "Delivery boy"
+					}
+				}
+			}
+		},
+		{
+			"name": "testimonials",
+			"fields": {
+				"title1": "Our Customers",
+				"title2": "Reviews",
+				"subtitle": "Testimonials",
+				"body": "Food is any substance consumed to provide nutritional support for an organism.",
+				"items": [
+					{
+						"image": {
+							"url": "/avatar-1.jpg",
+							"alt": "Robert William"
+						},
+						"reviewer": {
+							"name": "Robert William",
+							"company": "CEO Kingfisher"
+						},
+						"comment": {
+							"quote": "I would be lost without restaurant. I would like to personally thank you for your outstanding product.",
+							"rating": ""
+						}
+					},
+					{
+						"image": {
+							"url": "/avatar-2.jpg",
+							"alt": "Thomas Josef"
+						},
+						"reviewer": {
+							"name": "Thomas Josef",
+							"company": "CEO Getforce"
+						},
+						"comment": {
+							"quote": "I would be lost without restaurant. I would like to personally thank you for your outstanding product.",
+							"rating": ""
+						}
+					},
+					{
+						"image": {
+							"url": "/avatar-3.jpg",
+							"alt": "Charles Richard"
+						},
+						"reviewer": {
+							"name": "Charles Richard",
+							"company": "CEO FatPig"
+						},
+						"comment": {
+							"quote": "I would be lost without restaurant. I would like to personally thank you for your outstanding product.",
+							"rating": ""
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "banner",
+			"fields": {
+				"banner1": {
+					"title": "Discount For Delicious Tasty Burgers!",
+					"subtitle": "50% Off Now!",
+					"body": "Sale off 50% only this week",
+					"btn": "Order Now",
+					"image": "/banner-1.jpg",
+					"alt": "Discount For Delicious Tasty Burgers!"
+				},
+				"banner2": {
+					"title": "Delicious Pizza",
+					"body": "50% off Now",
+					"btn": "Order Now",
+					"image": "/banner-2.jpg",
+					"alt": "Delicious Pizza"
+				},
+				"banner3": {
+					"title": "American Burgers",
+					"body": "50% off Now",
+					"btn": "Order Now",
+					"image": "/banner-3.jpg",
+					"alt": "American Burgers"
+				},
+				"banner4": {
+					"title": "Tasty Buzzed Pizza",
+					"body": "Sale off 50% only this week",
+					"btn": "Order Now",
+					"image": "/banner-4.jpg",
+					"alt": "Tasty Buzzed Pizza"
+				}
+			}
+		},
+		{
+			"name": "blog",
+			"fields": {
+				"title1": "This Is All About",
+				"title2": "Food",
+				"subtitle": "Latest Blog Posts",
+				"body": "Food is any substance consumed to provide nutritional support for an organism.",
+				"items": [
+					{
+						"card": {
+							"title": "What Do You Think About Cheese Pizza Recipes?",
+							"body": "Financial experts support or help you to to find out which way you can raise your funds more...",
+							"url": "."
+						},
+						"image": {
+							"url": "/blog-1.jpg",
+							"alt": "Going to the gym for the first time"
+						},
+						"publish": {
+							"date": "Jan 01 2022",
+							"icon": "",
+							"url": "."
+						},
+						"author": {
+							"name": "Jonathan Smith",
+							"icon": "",
+							"url": "."
+						},
+						"link": {
+							"title": "Read More",
+							"url": "."
+						},
+						"badge": {
+							"title": "Pizza"
+						}
+					},
+					{
+						"card": {
+							"title": "Making Chicken Strips With New Delicious Ingridents.",
+							"body": "Financial experts support or help you to to find out which way you can raise your funds more...",
+							"url": "."
+						},
+						"image": {
+							"url": "/blog-2.jpg",
+							"alt": "Making Chicken Strips With New Delicious Ingridents"
+						},
+						"publish": {
+							"date": "Jan 01 2022",
+							"icon": "",
+							"url": "."
+						},
+						"author": {
+							"name": "Jonathan Smith",
+							"icon": "",
+							"url": "."
+						},
+						"link": {
+							"title": "Read More",
+							"url": "."
+						},
+						"badge": {
+							"title": "Burger"
+						}
+					},
+					{
+						"card": {
+							"title": "Innovative Hot Chessyraw Pasta Make Creator Fact.",
+							"body": "Financial experts support or help you to to find out which way you can raise your funds more...",
+							"url": "."
+						},
+						"image": {
+							"url": "/blog-3.jpg",
+							"alt": "Innovative Hot Chessyraw Pasta Make Creator Fact."
+						},
+						"publish": {
+							"date": "Jan 01 2022",
+							"icon": "",
+							"url": "."
+						},
+						"author": {
+							"name": "Jonathan Smith",
+							"icon": "",
+							"url": "."
+						},
+						"link": {
+							"title": "Read More",
+							"url": "."
+						},
+						"badge": {
+							"title": "Chicken"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "contact",
+			"fields": {
+				"title": "Contact me",
+				"line2": "get in touch.",
+				"line3": "Get in Touch",
+				"body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?",
+				"name":{
+					"heading": "Name",
+					"name": "Prakash Shahi",
+					"icon": "fas fa-user"
+				},
+				"address":{
+					"heading": "Address",
+					"location": "Surkhet, Nepal",
+					"icon": "fas fa-map-marker-alt"
+				},
+				"email":{
+					"heading": "Email",
+					"address": "abc@gmail.com",
+					"icon": "fas fa-envelope"
+				},
+				"button": {
+					"title": "Send message",
+					"url": "."
+				},
+				"form": {
+					"title": "Message me",
+					"name": "Name",
+					"email": "Email",
+					"subject": "Subject",
+					"message": "Message"
+				}
+			}
+		}
+	]
+  	
+}
