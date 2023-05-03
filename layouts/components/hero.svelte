@@ -1,7 +1,7 @@
 <script>
     export let title, subtitle, body, link, image;
 </script>
-<section class="hero" id="home" style="background-image: url('/assets{image.hero.url}')">
+<section class="hero" id="home" style="background-image: url('{image.hero.url}')">
     <div class="container">
 
       <div class="hero-content">
@@ -17,10 +17,10 @@
       </div>
 
       <figure class="hero-banner">
-        <img src="/assets{image.background.url}" width="820" height="716" alt="{image.background.alt}" aria-hidden="true"
+        <img src="{image.background.url}" width="820" height="716" alt="{image.background.alt}" aria-hidden="true"
           class="w-100 hero-img-bg">
 
-        <img src="/assets{image.banner.url}" width="700" height="637" loading="lazy" alt="{image.banner.alt}"
+        <img src="{image.banner.url}" width="700" height="637" loading="lazy" alt="{image.banner.alt}"
           class="w-100 hero-img">
       </figure>
     </div>

@@ -23,7 +23,7 @@
             <div class="profile-wrapper">
 
               <figure class="avatar">
-                <img src="/assets{item.image.url}" width="80" height="80" loading="lazy" alt="{item.image.alt}">
+                <img src="{item.image.url}" width="80" height="80" loading="lazy" alt="{item.image.alt}">
               </figure>
 
               <div>

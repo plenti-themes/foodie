@@ -1,5 +1,5 @@
 <script>
-  export let title;
+  export let env;
 </script>
 
 <head>
@@ -8,12 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Foodie - Supper delicious Burger in town!</title>
-  <script type="module" src="/spa/ejected/main.js"></script>
+
+  <base href="{env.baseurl}">
+  <script type="module" src="spa/ejected/main.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
-  <link rel='stylesheet' href='/spa/bundle.css'>
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel='stylesheet' href='spa/bundle.css'>
 
   <!-- 
     - favicon
@@ -23,7 +25,7 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href='assets/global.css'>
+  <link rel="stylesheet" href='global.css'>
 
   <!-- 
     - google font link
@@ -34,8 +36,8 @@
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
-  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="media/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="media/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="media/hero-bg.jpg">
 
 </head>

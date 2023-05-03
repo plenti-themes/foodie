@@ -20,7 +20,7 @@
           <div class="blog-card">
 
             <div class="card-banner">
-              <img src="/assets{item.image.url}" width="600" height="390" loading="lazy" alt="{item.image.alt}" class="w-100">
+              <img src="{item.image.url}" width="600" height="390" loading="lazy" alt="{item.image.alt}" class="w-100">
 
               <div class="badge">{item.badge.title}</div>
             </div>

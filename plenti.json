@@ -1,5 +1,6 @@
 {
 	"build": "public",
+	"baseurl": "/foodie/",
 	"local": {
 		"port": 3000
 	}

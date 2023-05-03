@@ -6,10 +6,10 @@
         <div class="container">
 
           <div class="about-banner">
-            <img src="/assets{image1.url}" width="509" height="459" loading="lazy" alt="{image1.alt}"
+            <img src="{image1.url}" width="509" height="459" loading="lazy" alt="{image1.alt}"
               class="w-100 about-img">
 
-            <img src="/assets{image2.url}" width="216" height="226" alt="{image2.alt}"
+            <img src="{image2.url}" width="216" height="226" alt="{image2.alt}"
               class="abs-img scale-up-anim">
           </div>
 

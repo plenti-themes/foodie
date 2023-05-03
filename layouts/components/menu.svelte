@@ -44,7 +44,7 @@
           <div class="food-menu-card">
 
             <div class="card-banner">
-              <img src="/assets{item.image.url}" width="300" height="300" loading="lazy" alt="{item.image.alt}" class="w-100">
+              <img src="{item.image.url}" width="300" height="300" loading="lazy" alt="{item.image.alt}" class="w-100">
 
               <div class="badge">{item.badge}</div>
 

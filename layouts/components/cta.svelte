@@ -2,7 +2,7 @@
     export let title1, title2, body, link, images;
 </script>
 
-<section class="section section-divider white cta" style="background-image: url('/assets{images.background.url}')">
+<section class="section section-divider white cta" style="background-image: url('{images.background.url}')">
     <div class="container">
 
       <div class="cta-content">
@@ -20,9 +20,9 @@
       </div>
 
       <figure class="cta-banner">
-        <img src="/assets{images.banner.url}" width="700" height="637" loading="lazy" alt="{images.banner.alt}" class="w-100 cta-img">
+        <img src="{images.banner.url}" width="700" height="637" loading="lazy" alt="{images.banner.alt}" class="w-100 cta-img">
 
-        <img src="/assets{images.sale.url}" width="216" height="226" loading="lazy" alt="{images.sale.alt}" class="abs-img scale-up-anim">
+        <img src="{images.sale.url}" width="216" height="226" loading="lazy" alt="{images.sale.alt}" class="abs-img scale-up-anim">
       </figure>
 
     </div>

@@ -17,15 +17,15 @@
 				"image": 
 					{
 						"hero": {
-							"url": "/hero-bg.jpg",
+							"url": "media/hero-bg.jpg",
 							"alt": "Hero background"
 						},
 						"background": {
-							"url": "/hero-banner-bg.png",
+							"url": "media/hero-banner-bg.png",
 							"alt": "Hero banner background"
 						},
 						"banner": {
-							"url": "/hero-banner.png",
+							"url": "media/hero-banner.png",
 							"alt": "Hero banner"
 						}
 					} 
@@ -41,11 +41,11 @@
 						"title": "Maxican Pizza",
 						"body": "Food is any substance consumed to provide nutritional support for an organism.",
 						"icon": {
-							"url": "/promo-icon-1.svg",
+							"url": "media/promo-icon-1.svg",
 							"alt": "Pizza"
 							},
 						"image": {
-							"url": "/promo-1.png",
+							"url": "media/promo-1.png",
 							"alt": "Maxican Pizza"
 							}
 						},
@@ -53,11 +53,11 @@
 						"title": "Soft Drinks",
 						"body": "Food is any substance consumed to provide nutritional support for an organism.",
 						"icon": {
-							"url": "/promo-icon-2.svg",
+							"url": "media/promo-icon-2.svg",
 							"alt": "Drinks"
 							},
 						"image": {
-							"url": "/promo-2.png",
+							"url": "media/promo-2.png",
 							"alt": "Soft Drinks"
 						  	}
 						},
@@ -65,11 +65,11 @@
 						"title": "French Fries",
 						"body": "Food is any substance consumed to provide nutritional support for an organism.",
 						"icon": {
-							"url": "/promo-icon-3.svg",
+							"url": "media/promo-icon-3.svg",
 							"alt": "Fries"
 							},
 						"image": {
-							"url": "/promo-3.png",
+							"url": "media/promo-3.png",
 							"alt": "French Fries"
 						  }
 						},
@@ -77,11 +77,11 @@
 						"title": "Burger Kingo",
 						"body": "Food is any substance consumed to provide nutritional support for an organism.",
 						"icon": {
-							"url": "/promo-icon-4.svg",
+							"url": "media/promo-icon-4.svg",
 							"alt": "Burger"
 							},
 						"image": {
-							"url": "/promo-4.png",
+							"url": "media/promo-4.png",
 							"alt": "French Fries"
 						  }
 						},
@@ -89,11 +89,11 @@
 						"title": "Chicken Masala",
 						"body": "Food is any substance consumed to provide nutritional support for an organism.",
 						"icon": {
-							"url": "/promo-icon-5.svg",
+							"url": "media/promo-icon-5.svg",
 							"alt": "Chicken"
 							},
 						"image": {
-							"url": "/promo-5.png",
+							"url": "media/promo-5.png",
 							"alt": "Chicken Masala"
 						  	}
 						}
@@ -107,11 +107,11 @@
 					"title2": "in Town!",
                     "body": "The restaurants in Hangzhou also catered to many northern Chinese who had fled south from Kaifeng during the Jurchen invasion of the 1120s, while it is also known that many restaurants were run by families.",
 					"image1": {
-						"url": "/about-banner.png",
+						"url": "media/about-banner.png",
 						"alt": "Burger with Drinks"
 					},
 					"image2": {
-						"url": "/sale-shape-red.png",
+						"url": "media/sale-shape-red.png",
 						"alt": "get up to 50% off now"
 					},
 					"link": {
@@ -166,7 +166,7 @@
 							"category": "Chicken",
 							"badge": "-15%",
 							"image": {
-								"url": "/food-menu-1.png",
+								"url": "media/food-menu-1.png",
 								"alt": "Fried Chicken Unlimited"
 							},	
 							"rating": {
@@ -192,7 +192,7 @@
 							"category": "Noodles",
 							"badge": "-10%",
 							"image": {
-								"url": "/food-menu-2.png",
+								"url": "media/food-menu-2.png",
 								"alt": "Burger King Whopper"
 							},	
 							"rating": {
@@ -218,7 +218,7 @@
 							"category": "Pizza",
 							"badge": "-25%",
 							"image": {
-								"url": "/food-menu-3.png",
+								"url": "media/food-menu-3.png",
 								"alt": "White Castle Pizza"
 							},	
 							"rating": {
@@ -244,7 +244,7 @@
 							"category": "Burrito",
 							"badge": "-20%",
 							"image": {
-								"url": "/food-menu-4.png",
+								"url": "media/food-menu-4.png",
 								"alt": "Bell Burrito Supreme"
 							},	
 							"rating": {
@@ -270,7 +270,7 @@
 							"category": "Nuggets",
 							"badge": "-5%",
 							"image": {
-								"url": "/food-menu-5.png",
+								"url": "media/food-menu-5.png",
 								"alt": "Kung Pao Chicken BBQ"
 							},	
 							"rating": {
@@ -296,7 +296,7 @@
 							"category": "Chicken",
 							"badge": "-15%",
 							"image": {
-								"url": "/food-menu-6.png",
+								"url": "media/food-menu-6.png",
 								"alt": "Wendy's Chicken"
 							},	
 							"rating": {
@@ -332,15 +332,15 @@
 				},
 				"images": {
 					"sale": {
-						"url": "/sale-shape.png",
+						"url": "media/sale-shape.png",
 						"alt": "Get up to 50% off now"
 					},
 					"background": {
-						"url": "/hero-bg.jpg",
+						"url": "media/hero-bg.jpg",
 						"alt": "Banner background"
 					},
 					"banner": {
-						"url": "/cta-banner.png",
+						"url": "media/cta-banner.png",
 						"alt": "Burger"
 					}
 				}
@@ -359,11 +359,11 @@
 				},
 				"images": {
 					"background": {
-						"url": "/delivery-banner-bg.png",
+						"url": "media/delivery-banner-bg.png",
 						"alt": "Image of clouds"
 					},
 					"banner": {
-						"url": "/delivery-boy.svg",
+						"url": "media/delivery-boy.svg",
 						"alt": "Delivery boy"
 					}
 				}
@@ -379,7 +379,7 @@
 				"items": [
 					{
 						"image": {
-							"url": "/avatar-1.jpg",
+							"url": "media/avatar-1.jpg",
 							"alt": "Robert William"
 						},
 						"reviewer": {
@@ -393,7 +393,7 @@
 					},
 					{
 						"image": {
-							"url": "/avatar-2.jpg",
+							"url": "media/avatar-2.jpg",
 							"alt": "Thomas Josef"
 						},
 						"reviewer": {
@@ -407,7 +407,7 @@
 					},
 					{
 						"image": {
-							"url": "/avatar-3.jpg",
+							"url": "media/avatar-3.jpg",
 							"alt": "Charles Richard"
 						},
 						"reviewer": {
@@ -430,28 +430,28 @@
 					"subtitle": "50% Off Now!",
 					"body": "Sale off 50% only this week",
 					"btn": "Order Now",
-					"image": "/banner-1.jpg",
+					"image": "media/banner-1.jpg",
 					"alt": "Discount For Delicious Tasty Burgers!"
 				},
 				"banner2": {
 					"title": "Delicious Pizza",
 					"body": "50% off Now",
 					"btn": "Order Now",
-					"image": "/banner-2.jpg",
+					"image": "media/banner-2.jpg",
 					"alt": "Delicious Pizza"
 				},
 				"banner3": {
 					"title": "American Burgers",
 					"body": "50% off Now",
 					"btn": "Order Now",
-					"image": "/banner-3.jpg",
+					"image": "media/banner-3.jpg",
 					"alt": "American Burgers"
 				},
 				"banner4": {
 					"title": "Tasty Buzzed Pizza",
 					"body": "Sale off 50% only this week",
 					"btn": "Order Now",
-					"image": "/banner-4.jpg",
+					"image": "media/banner-4.jpg",
 					"alt": "Tasty Buzzed Pizza"
 				}
 			}
@@ -471,7 +471,7 @@
 							"url": "."
 						},
 						"image": {
-							"url": "/blog-1.jpg",
+							"url": "media/blog-1.jpg",
 							"alt": "Going to the gym for the first time"
 						},
 						"publish": {
@@ -499,7 +499,7 @@
 							"url": "."
 						},
 						"image": {
-							"url": "/blog-2.jpg",
+							"url": "media/blog-2.jpg",
 							"alt": "Making Chicken Strips With New Delicious Ingridents"
 						},
 						"publish": {
@@ -527,7 +527,7 @@
 							"url": "."
 						},
 						"image": {
-							"url": "/blog-3.jpg",
+							"url": "media/blog-3.jpg",
 							"alt": "Innovative Hot Chessyraw Pasta Make Creator Fact."
 						},
 						"publish": {
