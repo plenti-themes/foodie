@@ -1,6 +1,6 @@
 <footer class="footer">
 
-    <div class="footer-top" style="background-image: url('/assets/footer-illustration.png')">
+    <div class="footer-top" style="background-image: url('media/footer-illustration.png')">
       <div class="container">
 
         <div class="footer-brand">
